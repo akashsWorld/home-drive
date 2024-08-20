@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: service-registry-home-drive
+  config:
+    import: optional:configserver:http://localhost:9000
